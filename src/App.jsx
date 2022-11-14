@@ -24,7 +24,7 @@ const Imagen = styled.img`
   display: block;
   @media (max-width: 520px) {
     max-width: 110px;
-    margin: 30px auto 10px;
+    margin: 15px auto 5px;
     display: block;
    }
   
@@ -50,7 +50,7 @@ const Heading = styled.h1`
 
   @media (max-width: 520px) {
     font-weight: 400;
-    margin: 25px auto 30px;
+    margin: 15px auto 30px;
     font-size: 25px;
    }
 
