@@ -7,6 +7,10 @@ const Contenedor = styled.div`
   align-items: center;
   gap: 1rem;
   margin-top: 30px;
+  @media (max-width: 520px) {
+    margin-top: 5px;
+    gap: .8rem;
+   }
 `;
 
 const Imagen = styled.img`
@@ -20,6 +24,9 @@ const Texto = styled.p`
     font-weight: 700;
     display: block;
   }
+  @media (max-width: 520px) {
+    font-weight: 200;
+   }
 `;
 const Precio = styled.p`
   font-size: 24px;
@@ -27,6 +34,10 @@ const Precio = styled.p`
     font-weight: 700;
     display: block;
   }
+  @media (max-width: 520px) {
+    font-weight: 400;
+    font-size: 22px;
+   }
 `;
 
 const Resultado = ({ resultado }) => {

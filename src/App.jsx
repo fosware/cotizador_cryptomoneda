@@ -14,6 +14,7 @@ const Contenedor = styled.div`
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
+
 `
 
 const Imagen = styled.img`
@@ -21,6 +22,12 @@ const Imagen = styled.img`
   width: 80%;
   margin: 100px auto 0 auto;
   display: block;
+  @media (max-width: 520px) {
+    max-width: 110px;
+    margin: 30px auto 10px;
+    display: block;
+   }
+  
 `
 
 const Heading = styled.h1`
@@ -40,6 +47,13 @@ const Heading = styled.h1`
     display: block;
     margin: 10px auto 0 auto;
   }
+
+  @media (max-width: 520px) {
+    font-weight: 400;
+    margin: 25px auto 30px;
+    font-size: 25px;
+   }
+
 `
 function App() {
  

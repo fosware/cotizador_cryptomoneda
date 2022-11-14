@@ -9,6 +9,11 @@ const Label = styled.label`
     font-size: 24px;
     font-weight: 700;
     margin: 15px 0;
+    @media (max-width: 500px) {
+    font-weight: 400;
+    font-size: 19px;
+    margin: 10px 0;
+   }
 `
 
 const Select = styled.select`
@@ -17,6 +22,10 @@ const Select = styled.select`
     padding: 14px;
     border-radius: 10px;
     margin-bottom: 20px;
+    @media (max-width: 500px) {
+    padding: 9px;
+    font-size: 16px;
+   }
 `
 
 const useSelectMonedas = (label, opciones) => {
